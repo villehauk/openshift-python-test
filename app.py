@@ -3,9 +3,9 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/hello')
 def hello():
-    return "Hello World!"
+    return "Hello World! 2"
 
 @app.route('/')
 def hello2():
